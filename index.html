@@ -27,24 +27,25 @@ tw-story[tags~="l11"] { background-image: url("11.png") !important; background-s
 tw-passage[tags~="l1"] {
   text-align: center;
   width: 700px;
-  text-shadow: 2px 2px 4px #FFFFFF;
+  text-shadow: 1px 1px 0px #FFFFFF; /* Убрали размытие */
   color: #8B0000;
   font-size: 25px;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1.6;
   margin-left: 120px;
   margin-top: 65vh;
+  font-family: Arial, sans-serif;
 }
-
 tw-passage[tags~="l2"] {
   width: 700px;
-  text-shadow: 2px 2px 4px #FFFFFF;
+  text-shadow: 1px 1px 0px #FFFFFF; /* Сделали тень четкой, без размытия */
   color: #000000;
   font-size: 25px;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1.6; /* Увеличили расстояние между строками */
   margin-left: 20px;
   margin-top: -5vh;
+  font-family: Arial, sans-serif; /* Убрали шрифт с засечками для четкости */
 }
 
 tw-passage[tags~="l3"] { color: #00FF00; font-weight: bold; line-height: 1.4; }
